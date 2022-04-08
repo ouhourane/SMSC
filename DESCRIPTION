@@ -1,0 +1,12 @@
+Package: SMSC
+Type: Package
+Title: A smooth methylation status calling (SMSC) procedure
+Version: 0.0.1
+Date: 2016-01-26
+Depends: locfit
+Author: Mohamed OUHOURANE <mohamed.ouhourane@gmail.com>, Karim Oualkacha <oualkacha.karim@uqam.ca>, M'Hamed Lajmi <Lajmi.Lakhal@mat.ulaval.ca> Belkacem Abdous <belkacem.abdous@fmed.ulaval.ca>
+Maintainer: Mohamed OUHOURANE <mohamed.ouhourane@gmail.com>
+Description: To take into account the spatial correlation between DNA methylation profiles at neighbouring CpG sites and correct for the experimental and sequencing errors, we use an adaptative mixture of binomial distributions to model the observed count of C reads in the presence of sequencing errors. In our case, we consider a methylation probability that varies with the genomic location and derive a smoothed kernel-based EM-algorithm to estimate the parameters of our model.
+License: GPL-2
+NeedsCompilation: yes
+Packaged: 2016-02-11 03:13:09 UTC; mohamed

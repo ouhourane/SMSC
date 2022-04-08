@@ -1,0 +1,8 @@
+useDynLib("SMSC")
+
+import("locfit")
+
+export(SMSC,
+plotSMSC
+)
+
